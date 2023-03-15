@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f1f1;
+}
+h1 {
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 38px;
+    color: #000000;
+}
+.obvod{
+    margin: auto;
+    width: 600px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .3),
+    -23px 0 20px -23px rgba(0, 0, 0, .6),
+    23px 0 20px -23px rgba(0, 0, 0, .6),
+    inset 0 0 40px rgba(0, 0, 0, .1);
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+input[type="submit"] {
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    background-color: #575757;
+    color: #fff;
+    cursor: pointer;
+}
+table {
+    margin-top: 30px;
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+th {
+    background-color: #575757;
+    color: #fff;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

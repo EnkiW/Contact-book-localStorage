@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>HomeTask13</title>
+</head>
+<body>
+<div class="obvod">
+    <h1>Контактна книга</h1>
+</div>
+<form id="contactForm">
+    <label for="name">Ім'я контакту:</label>
+    <input type="text" id="name" name="name" required>
+    <label for="phone">Номер телефону:</label>
+    <input type="text" id="phone" name="phone"
+           pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+           required
+           placeholder="      000-000-000">
+    <input type="submit" value="Додати контакт">
+</form>
+<table id="contactTable">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Ім'я контакту</th>
+        <th>Номер телефону</th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+<script src="script.js"></script>
+</body>
+</html>
